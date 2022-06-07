@@ -26,9 +26,6 @@ function App() {
                     <Route path="/home">
                         <Welcome/>
                     </Route>
-                    <Route path="*">
-                        <Notfound/>
-                    </Route>
                 </Switch>
             </div>
           </div>
