@@ -1,16 +1,5 @@
 {
   "activities": [
-    {
-      "title": "計畫一",
-      "amount": "100",
-      "describe": "none",
-      "id": 1
-    },
-    {
-      "title": "計畫二",
-      "amount": "1000",
-      "describe": "none",
-      "id": 2
-    }
+
   ]
 }
