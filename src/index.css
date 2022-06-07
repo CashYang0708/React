@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background: black;
+}
+.navbar h1{
+  color: #15cdfc;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 6px;
+  color: #FFFFFF;
+}
+.navbar a:hover{
+  color: #aaa;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.preview h2{
+  font-size: 20px;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+}
+.preview a{
+  text-decoration: none;
+}
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h1{
+  margin-bottom: 30px;
+}
+.create input, .create textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background: #61dafb;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.button{
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+.detail h2, .detail p{
+  margin-bottom: 40px;
+}
