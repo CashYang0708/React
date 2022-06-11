@@ -6,6 +6,7 @@ import Create from "./Create";
 import Details from "./Details";
 import Notfound from "./Notfound";
 import Welcome from "./Welcome";
+import Coin from "./Coin";
 
 function App() {
   return (
@@ -23,8 +24,11 @@ function App() {
                     <Route path="/activity/:id">
                         <Details />
                     </Route>
-                    <Route path="/home">
+                    <Route exact path="/">
                         <Welcome/>
+                    </Route>
+                    <Route path="/coin">
+                        <Coin/>
                     </Route>
                     <Route path="*">
                         <Notfound></Notfound>
