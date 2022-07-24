@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 const Coin=()=>{
@@ -19,10 +18,12 @@ const Coin=()=>{
       }
    }
    return(
-       <div className="coin">
-          <h1 >MetaMask</h1>
-          <button onClick={requestAccount}>Check</button>
-       </div>
+       <>
+           <div className="coin">
+            <h1 >MetaMask</h1>
+            <button onClick={requestAccount}>Check</button>
+           </div>
+       </>
    );
 }
 export default Coin
